@@ -23,7 +23,7 @@ When brought back online:
 * [Finished Product](#finished-product)
 
 ## Usage
-Visit the deployed Heroku link here:
+Visit the deployed Heroku link here: https://budget-tracker-ausley.herokuapp.com/ 
 
 Then, insert the name and amount of your transaction, and select whether or not it will add or subtract from your funds. For example, if you were paid today, you would add that value to your funds. 
 
@@ -36,9 +36,9 @@ When internet is detected, your total budget will update based on those transact
 You can also run "npm i" in your terminal, and once it has finished installing, run "node server.js"
 
 ## Finished Product
-View the deployed application here:
+View the deployed application via Heroku here: https://budget-tracker-ausley.herokuapp.com/
 
-View a brief demo of the application here: 
+View a brief demo of the application here: https://youtu.be/O24Xutr0-Pc 
 
 ## Technologies
 HTML
