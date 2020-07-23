@@ -9,7 +9,7 @@ request.onupgradeneeded = function (event) {
 request.onsuccess = function (event) {
   db = event.target.result;
 
-  // check if app is online before reading from db
+  //is the app online?
   if (navigator.onLine) {
     checkDatabase();
   }
@@ -22,7 +22,6 @@ request.onerror = function (event) {
 function saveRecord(record) {
   const transaction = db.transaction(["pending"], "readwrite");
   const store = transaction.objectStore("pending");
-
   store.add(record);
 }
 
@@ -43,7 +42,6 @@ function checkDatabase() {
       })
         .then(response => response.json())
         .then(() => {
-          // delete records if successful
           const transaction = db.transaction(["pending"], "readwrite");
           const store = transaction.objectStore("pending");
           store.clear();
@@ -57,5 +55,4 @@ function deletePending() {
   store.clear();
 }
 
-// listen for app coming back online
 window.addEventListener("online", checkDatabase);
