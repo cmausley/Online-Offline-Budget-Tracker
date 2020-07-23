@@ -44,16 +44,16 @@ View a brief demo of the application here: https://youtu.be/O24Xutr0-Pc
 ![Sample Image 2](budget2.jpg)
 
 ## Technologies
-*HTML
-*CSS
-*JavaScript
-*Node.js
-*Express.js
-*MongoDB
-*Mongoose
-*IndexedDB
-*Service Workers
-*Cache API
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* IndexedDB
+* Service Workers
+* Cache API
 
 ## Questions
 ​
