@@ -40,17 +40,20 @@ View the deployed application via Heroku here: https://budget-tracker-ausley.her
 
 View a brief demo of the application here: https://youtu.be/O24Xutr0-Pc 
 
+![Sample Image 1](budget1.JPG)
+![Sample Image 2](budget2.jpg)
+
 ## Technologies
-HTML
-CSS
-JavaScript
-Node.js
-Express.js
-MongoDB
-Mongoose
-IndexedDB
-Service Workers
-Cache API
+*HTML
+*CSS
+*JavaScript
+*Node.js
+*Express.js
+*MongoDB
+*Mongoose
+*IndexedDB
+*Service Workers
+*Cache API
 
 ## Questions
 ​
