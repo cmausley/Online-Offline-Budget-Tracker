@@ -18,9 +18,9 @@ When brought back online:
 
 ## Table of Contents
 * [Usage](#usage)
+* [Finished Product](#finished-product)
 * [Technologies](#technologies)
 * [Questions](#questions)
-* [Finished Product](#finished-product)
 
 ## Usage
 Visit the deployed Heroku link here: https://budget-tracker-ausley.herokuapp.com/ 
